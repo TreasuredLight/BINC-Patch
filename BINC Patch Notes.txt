@@ -1,0 +1,1454 @@
+# Field values follow this format: [Vanilla Value] -> [BINC Patch Value]
+[-- Attack Params --]
+(Damage, Impact, Direct Hit, etc.)
+
+  10120100 (ASSAULT RIFLE - RF-025 SCUDDER (Charged):
+    Charged shot now exists.
+    Knockback: 300
+    Attack Power: 2136
+    Impact: 1350
+    Accumulative Impact: 650
+    Direct Hit Adj: 200
+    Can Knockback Enemy (Neutral): True
+
+  10000100 BURST RIFLE - MA-J-200 RANSETSU-RF (Charged):
+    Impact: 245 -> 300
+    Direct Hit Adj: 220 -> 240
+
+  10010000 LINEAR RIFLE - LR-036 CURTIS:
+    Attack Power: 142 -> 190
+    Direct Hit Adj: 220 -> 185
+
+  10010100 LINEAR RIFLE - LR-036 CURTIS (Charged):
+    Attack Power: 689 -> 939
+    Direct Hit Adj: 120 -> 85
+
+  10020100 LINEAR RIFLE - LR-037 HARRIS (Charged):
+    Attack Power: 977 -> 1077
+
+  10100000 BURST ASSAULT RIFLE - MA-J-201 RANSETSU-AR:
+    Attack Power: 77 -> 48
+    Impact: 64 -> 37
+    Accumulative Impact: 25 -> 17
+
+  10110000 ASSAULT RIFLE - RF-024 TURNER:
+    Attack Power: 105 -> 520
+    Attack Power: 0 -> 220
+    Attack Type: Bullet -> Explosive
+    Self Knockback (Grounded): 0 -> 15
+    Sound Change: Assault Rifle -> Sniper Rifle
+    Self Knockback (Flying): 0 -> 15
+    Impact: 65 -> 275
+    Direct Hit Adj: 85 -> 100
+    Accumulative Impact: 28 -> 275
+
+  10120000 ASSAULT RIFLE - RF-025 SCUDDER:
+    Enemy Knockback (Staggered): 85 -> 185
+    Attack Power: 135 -> 712
+    Self Knockback (Grounded): 0 -> 20
+    Death Animation Changed: Normal Death -> Penetration Death
+    Sound Change: Assault Rifle -> Cannon
+    Self Knockback (Flying): 0 -> 20
+    Impact: 82 -> 510
+    Damage Animation Change
+    Direct Hit Time Extension: 0 -> 200
+    Direct Hit Adj: 85 -> 100
+    Accumulative Impact: 39 -> 320
+
+  10200000 BURST MACHINE GUN - MA-E-210 ETSUJIN:
+    Impact: 44 -> 46
+
+  10400005 BAZOOKA - LITTLE GEM (Blast):
+    Attack Power: 819 -> 420
+    Accumulative Impact: 670 -> 590
+
+  10420005 BAZOOKA - DF-BA-06 XUAN-GE (Blast):
+    Accumulative Impact: 765 -> 685
+
+  10500000 SHOTGUN - WR-0777 SWEET SIXTEEN:
+    Attack Power: 85 -> 32
+    Pulse Interference: 61 -> 16
+    Impact: 61 -> 32
+    Accumulative Impact: 41 -> 26
+
+  10510000 SHOTGUN - SG-026 HALDEMAN:
+    Accumulative Impact: 35 -> 38
+
+  10520000 SHOTGUN - SG-027 ZIMMERMAN:
+    Accumulative Impact: 18 -> 22
+
+  11100100 LASER HANDGUN - VP-66LH (Charged):
+    Attack Power: 220 -> 110
+    Sound Change: Laser Handgun -> Laser Cannon
+    Impact: 95 -> 45
+    Direct Hit Time Extension: 0 -> 500
+    Accumulative Impact: 39 -> 20
+
+  11120000 CORAL RIFLE - IB-C03W1: WLT 011:
+    Attack Power: 335 -> 550
+    Impact: 88 -> 100
+    Accumulative Impact: 88 -> 100
+
+  11120005 CORAL RIFLE - IB-C03W1: WLT 011 (Blast):
+    Attack Power: 35 -> 75
+    Impact: 40 -> 50
+    Accumulative Impact: 40 -> 50
+
+  11120100 CORAL RIFLE - IB-C03W1: WLT 011 (Charged):
+    Attack Power: 965 -> 435
+    Micro-Stagger: False -> True
+    Can Knockback Enemy (Neutral): False -> True
+    Impact: 720 -> 840
+    Accumulative Impact: 720 -> 840
+    Enemy Knockback (Neutral): 0 -> 300
+
+  11120105 CORAL RIFLE - IB-C03W1: WLT 011 (Charged Blast):
+    Attack Power: 156 -> 255
+
+  11120110 CORAL RIFLE - IB-C03W1: WLT 011 (Full Charged):
+    [hit0_Radius]: 7 -> 8
+    Enemy Knockback (Staggered): 85 -> 300
+    Attack Power: 315 -> 485
+    Can Knockback Enemy (Neutral): False -> True
+    Damage Animation Change
+    Direct Hit Time Extension: 0 -> 100
+    Enemy Knockback (Neutral): 0 -> 115
+
+  11120120 CORAL RIFLE - IB-C03W1: WLT 011 (Full Charged):
+    [hit0_Radius]: 7 -> 8
+    Enemy Knockback (Staggered): 85 -> 300
+    Attack Power: 830 -> 1030
+    Can Knockback Enemy (Neutral): False -> True
+    Damage Animation Change
+    Direct Hit Time Extension: 0 -> 100
+    Enemy Knockback (Neutral): 0 -> 115
+
+  11130000 LASER RIFLE - VE-66LRA:
+    Attack Power: 443 -> 490
+    Direct Hit Adj: 40 -> 45
+
+  11300000 PULSE GUN - HI-16: GU-Q1:
+    Friendly Fire: False -> True
+    Pulse Interference: 58 -> 116
+    Impact: 11 -> 0
+    Pulse Shield Interference (Normal Guard): 47 -> 94
+    Pulse Shield Interference (Instant Guard): 47 -> 94
+    Accumulative Impact: 6 -> 0
+
+  11310000 PULSE GUN - HI-18: GU-A2:
+    Friendly Fire: False -> True
+    Pulse Interference: 129 -> 258
+    Impact: 24 -> 0
+    Pulse Shield Interference (Normal Guard): 105 -> 210
+    Pulse Shield Interference (Instant Guard): 105 -> 210
+    Accumulative Impact: 12 -> 0
+
+  13000000 PULSE MISSILE LAUNCHER - PFAU/66D:
+    Pulse Interference: 229 -> 458
+    Pulse Shield Interference (Normal Guard): 107 -> 214
+    Pulse Shield Interference (Instant Guard): 107 -> 214
+
+  13000005 PULSE MISSILE LAUNCHER - PFAU/66D:
+    Pulse Interference: 229 -> 458
+    Pulse Shield Interference (Normal Guard): 107 -> 214
+    Pulse Shield Interference (Instant Guard): 107 -> 214
+
+  13000100 PULSE MISSILE LAUNCHER - PFAU/66D:
+    Pulse Interference: 229 -> 458
+    Pulse Shield Interference (Normal Guard): 107 -> 214
+    Pulse Shield Interference (Instant Guard): 107 -> 214
+
+  13000105 PULSE MISSILE LAUNCHER - PFAU/66D:
+    Pulse Interference: 229 -> 458
+    Pulse Shield Interference (Normal Guard): 107 -> 214
+    Pulse Shield Interference (Instant Guard): 107 -> 214
+
+  20100000 PULSE BLADE - HI-32: BU-TT/A (Attack 1):
+    Enemy Knockback (Staggered): 100 -> 50
+    Attack Power: 963 -> 1100
+    Pulse Interference: 1044 -> 2088
+    Pulse Shield Interference (Normal Guard): 334 -> 668
+    Pulse Shield Interference (Instant Guard): 334 -> 668
+
+  20100010 PULSE BLADE - HI-32: BU-TT/A (Attack 2):
+    Pulse Interference: 1044 -> 2088
+    Pulse Shield Interference (Normal Guard): 334 -> 668
+    Pulse Shield Interference (Instant Guard): 334 -> 668
+
+  20100100 PULSE BLADE - HI-32: BU-TT/A (Charged):
+    Attack Power: 1586 -> 1788
+    Pulse Interference: 1764 -> 3528
+    Pulse Shield Interference (Normal Guard): 564 -> 1128
+    Pulse Shield Interference (Instant Guard): 564 -> 1128
+
+  20700000 PLASMA THROWER - 44-143 HMMR (Attack 1):
+    Attack Power: 1208 -> 1381
+    Impact: 690 -> 810
+    Accumulative Impact: 440 -> 520
+
+  20700001 PLASMA THROWER - 44-143 HMMR (Attack 2):
+    Attack Power: 1208 -> 1381
+    Impact: 690 -> 810
+    Accumulative Impact: 440 -> 520
+
+  30010005 PLASMA MISSILE LAUNCHER - Vvc-70VPM (Blast):
+    Attack Power: 95 -> 135
+    Impact: 48 -> 63
+    Accumulative Impact: 31 -> 41
+
+  30020005 PLASMA MISSILE LAUNCHER - Vvc-706PM (Blast):
+    Attack Power: 95 -> 135
+    Impact: 48 -> 63
+    Accumulative Impact: 31 -> 41
+
+  30400001 VERTICAL MISSILE LAUNCHER - BML-G1/P07VTC-12 (Descending):
+    Attack Power: 124 -> 150
+    Accumulative Impact: 55 -> 20
+
+  30400005 VERTICAL MISSILE LAUNCHER - BML-G1/P07VTC-12 (Blast):
+    Attack Power: 0 -> 150
+    Special Effects Visual Change: 0 -> 1
+
+  30410001 VERTICAL MISSILE LAUNCHER - BML-G1/P03VTC-08 (Descending):
+    Attack Power: 124 -> 150
+    Accumulative Impact: 55 -> 20
+
+  30410005 VERTICAL MISSILE LAUNCHER - BML-G1/P03VTC-08 (Blast):
+    Attack Power: 0 -> 150
+
+  30420001 VERTICAL MISSILE LAUNCHER - BML-G1/P01VTC-04 (Descending):
+    Attack Power: 124 -> 150
+    Accumulative Impact: 55 -> 20
+
+  30420005 VERTICAL MISSILE LAUNCHER - BML-G1/P01VTC-04 (Blast):
+    Attack Power: 0 -> 150
+
+  31000000 GRENADE CANNON - SONGBIRDS:
+    Enemy Knockback (Staggered): 120 -> 0
+    Self Knockback (Flying): 45 -> 80
+    Direct Hit Adj: 40 -> 110
+
+  31000005 GRENADE CANNON - SONGBIRDS (Blast):
+    Enemy Knockback (Staggered): 120 -> 0
+    Self Knockback (Flying): 0 -> 150
+    Direct Hit Adj: 40 -> 110
+
+  31100000 NEEDLE MISSILE LAUNCHER - EL-PW-01 TRUENO:
+    Attack Power: 415 -> 477
+    Direct Hit Adj: 115 -> 85
+
+  31300005 CLUSTER MISSILE LAUNCHER - WR-0999 DELIVERY BOY (Blast):
+    Attack Power: 491 -> 50
+    Pulse Interference: 477 -> 47
+    Impact: 477 -> 40
+    Direct Hit Adj: 75 -> 50
+    Accumulative Impact: 369 -> 20
+
+  31300006 CLUSTER MISSILE LAUNCHER - WR-0999 DELIVERY BOY (Cluster Missile Blast):
+    Attack Power: 711 -> 70
+    Pulse Interference: 680 -> 68
+    Impact: 680 -> 40
+    Maximum Hit Counted (0 = unlimited): 1 -> 0
+    Maximum Hit Reset Timer: 2 -> 0
+    Direct Hit Adj: 75 -> 50
+    Accumulative Impact: 546 -> 20
+
+  31410110 LASER DRONE - Vvc-700LD (Charged Laser):
+    Attack Power: 685 -> 175
+    Impact: 240 -> 120
+    Accumulative Impact: 122 -> 61
+
+  31510000 LASER TURRET - VP-60LT:
+    Attack Power: 0 -> 1090
+    Pulse Interference: 0 -> 500
+    Impact: -1 -> 500
+    Max Hit Count Behavior: Ignore -> No Hit
+    Direct Hit Adj: 0 -> 40
+    Accumulative Impact: 0 -> 400
+
+  32000000 SPREAD BAZOOKA - SB-033M MORLEY:
+    Enemy Knockback (Staggered): 120 -> 0
+    Self Knockback (Grounded): 75 -> 55
+
+  32000005 SPREAD BAZOOKA - SB-033M MORLEY (Blast):
+    Enemy Knockback (Staggered): 120 -> 0
+    Attack Power: 282 -> 141
+    Impact: 290 -> 72
+    Accumulative Impact: 172 -> 43
+
+  32400000 PULSE CANNON - KRANICH/60Z:
+    Friendly Fire: False -> True
+    Pulse Interference: 110 -> 220
+    Impact: 20 -> 0
+    Pulse Shield Interference (Normal Guard): 90 -> 180
+    Pulse Shield Interference (Instant Guard): 90 -> 180
+    Accumulative Impact: 10 -> 0
+
+  32700000 STUN NEEDLE LAUNCHER - VE-60SNA:
+    Attack Power: 1258 -> 1440
+    Impact: 641 -> 670
+    Direct Hit Adj: 95 -> 20
+    Accumulative Impact: 339 -> 330
+
+  33010000 LASER ORBIT - 45-091 ORBT:
+    Attack Power: 144 -> 220
+    Impact: 70 -> 84
+    Accumulative Impact: 39 -> 42
+
+  33100000 PULSE SHIELD LAUNCHER - EULE/60D:
+    Attack Power: 120 -> 0
+    Friendly Fire: False -> True
+    Impact: 168 -> 0
+    Accumulative Impact: 56 -> 0
+
+  33100001 PULSE SHIELD LAUNCHER - EULE/60D (Shield):
+    Healing: 0 -> 1800
+    Attack Power: 120 -> 0
+    Disabled Function: False -> True
+    Friendly Fire: False -> True
+    Impact: 168 -> 0
+    Accumulative Impact: 56 -> 0
+
+  33100005 PULSE SHIELD LAUNCHER - EULE/60D (Blast):
+    Healing: 0 -> 1800
+    Attack Power: 455 -> 0
+    Disabled Function: False -> True
+    Friendly Fire: False -> True
+    Impact: 640 -> 0
+    Accumulative Impact: 461 -> 0
+
+  33500000 LIGHT WAVE CANNON - IA-C01W3: AURORA:
+    Attack Power: 134 -> 202
+    Pulse Interference: 120 -> 240
+    Impact: 102 -> 116
+    Accumulative Impact: 102 -> 116
+
+  34000000 GATLING CANNON - DF-GA-09 SHAO-WEI:
+    Attack Power: 24 -> 6
+    Pulse Interference: 20 -> 6
+    Impact: 20 -> 5
+    Accumulative Impact: 11 -> 3
+
+  70000001 EXPANSION - ASSAULT ARMOR (Pulse):
+    Attack Power: 400 -> 0
+    Enable Part Destruction: False -> True
+    Hits Enemy: True -> False
+    Friendly Fire: False -> True
+    Hits Self: False -> True
+
+  70000010 EXPANSION - ASSAULT ARMOR (Pulse):
+    Pulse Interference: 3500 -> 7000
+
+  70000011 EXPANSION - ASSAULT ARMOR (Pulse):
+    Pulse Interference: 4000 -> 8000
+    Pulse Shield Interference (Normal Guard): 0 -> 1000
+    Pulse Shield Interference (Instant Guard): 0 -> 1000
+
+  70000101 EXPANSION - ASSAULT ARMOR (Coral):
+    Attack Power: 520 -> 0
+    Hits Enemy: True -> False
+    Friendly Fire: False -> True
+    Hits Self: False -> True
+
+  70000110 EXPANSION - ASSAULT ARMOR (Coral):
+    Pulse Interference: 3500 -> 7000
+
+  70000111 EXPANSION - ASSAULT ARMOR (Coral):
+    Pulse Interference: 4000 -> 8000
+    Pulse Shield Interference (Normal Guard): 0 -> 1000
+    Pulse Shield Interference (Instant Guard): 0 -> 1000
+
+  70200000 EXPANSION - PULSE PROTECTION:
+    Pulse Shield Interference (Normal Guard): 0 -> 50000
+    Pulse Shield Interference (Instant Guard): 0 -> 50000
+
+  70200009 EXPANSION - PULSE PROTECTION:
+    Applies ACS Plasma
+    Micro-Stagger: False -> True
+    Pulse Interference: 200 -> 20000
+    Pulse Shield Interference (Normal Guard): 0 -> 50000
+    Pulse Shield Interference (Instant Guard): 0 -> 50000
+
+  80000000 Fists (Right):
+    Attack Scales With Weight: False -> True
+
+  80000010 Fists (Left):
+    Attack Scales With Weight: False -> True
+
+[-- Attack Animation Changes --]
+
+  10010200 ASSAULT RIFLE - RF-025 SCUDDER:
+    Attacking Animation Changed: 300 -> 315
+    Attacking Type Changed: 2 -> 6
+    Reload Animation Changed: 1 -> 0
+
+  10050000 SHOTGUN - WR-0777 SWEET SIXTEEN:
+    Attacking Type Changed: 7 -> 2
+
+  30200000 SPREAD BAZOOKA - SB-033M MORLEY (Right):
+    Attacking Type Changed: 1 -> 7
+
+  30400000 GATLING CANNON - DF-GA-09 SHAO-WEI (Right):
+    Warning Ping: False -> True
+    Warning Ping Type: None -> Strong Attack
+
+  35200000 SPREAD BAZOOKA - SB-033M MORLEY (Left):
+    Attacking Type Changed: 1 -> 7
+
+  35400000 GATLING CANNON - DF-GA-09 SHAO-WEI (Left):
+    Warning Ping: False -> True
+    Warning Ping Type: None -> Strong Attack
+
+[-- Behavior Params --]
+(Fire Rate, Bullets Fired Per Burst, etc.)
+
+  110000000 BURST RIFLE - MA-J-200 RANSETSU-RF:
+    Bullets Fired Per Shot: 1 -> 2
+    Rate Of Fire: 0 -> 0.35
+
+  110000100 BURST RIFLE - MA-J-200 RANSETSU-RF (Charged):
+    Bullets Fired Per Shot: 3 -> 5
+    Rate Of Fire: 0.06 -> 0.03
+    Rate Of Fire (Between Individual Bullets Fired In A Single Burst): 0.8 -> 0.001
+
+  110010100 LINEAR RIFLE - LR-036 CURTIS (Charged):
+    Heat Build Up: 550 -> 600
+
+  110100000 BURST ASSAULT RIFLE - MA-J-201 RANSETSU-AR:
+    Bullets Fired Per Shot: 3 -> 5
+    Rate Of Fire: 0.09 -> 0.045
+    Rate Of Fire (Between Individual Bullets Fired In A Single Burst): 0.8 -> 0.33
+
+  110110000 ASSAULT RIFLE - RF-024 TURNER:
+    Rate Of Fire (Between Individual Bullets Fired In A Single Burst): 0.3 -> 0.38
+    Recoil: 13 -> 50
+
+  110120000 ASSAULT RIFLE - RF-025 SCUDDER:
+    Rate Of Fire (Between Individual Bullets Fired In A Single Burst): 0.35 -> 1.25
+    Recoil: 15 -> 50
+    Heat Build Up: 0 -> 500
+
+  110120100 (ASSAULT RIFLE - RF-025 SCUDDER (Charged)) does not exist in comparison.
+  110210000 MACHINE GUN - MG-014 LUDLOW:
+    Rate Of Fire (Between Individual Bullets Fired In A Single Burst): 0.1 -> 0.075
+
+  110220000 MACHINE GUN - DF-MG-02 CHANG-CHEN:
+    Rate Of Fire (Between Individual Bullets Fired In A Single Burst): 0.1 -> 0.07
+
+  110230000 HEAVY MACHINE GUN - WR-0555 ATTACHE:
+    Rate Of Fire (Between Individual Bullets Fired In A Single Burst): 0.2 -> 0.1
+
+  110300000 GATLING GUN - DF-GA-08 HU-BEN:
+    Recoil: 5 -> 4
+
+  110500000 SHOTGUN - WR-0777 SWEET SIXTEEN:
+    Rate Of Fire (Between Individual Bullets Fired In A Single Burst): 0.1 -> 0.55
+    Recoil: 100 -> 12000
+    Shotgun Spread Distance (Bigger Number Better): 75 -> 150
+
+  111100100 LASER HANDGUN - VP-66LH (Charged):
+    Projectiles Per Shot: 1 -> 12
+    Bullets Fired Per Shot: 6 -> 1
+    Rate Of Fire (Between Individual Bullets Fired In A Single Burst): 0.7 -> 0.06
+    Ammo Used Per Shot: 1 -> 12
+    Has Bullet Spread
+    Shotgun Spread Distance (Bigger Number Better): 0 -> 40
+    Heat Build Up: 90 -> 540
+
+  130400000 VERTICAL MISSILE LAUNCHER - BML-G1/P07VTC-12:
+    Rate Of Fire: 0.15 -> 0.1
+    Missile Lock Time: 1.4 -> 1.8
+    Has Bullet Spread
+
+  130410000 VERTICAL MISSILE LAUNCHER - BML-G1/P03VTC-08:
+    Rate Of Fire: 0.1 -> 0.075
+    Missile Lock Time: 0.8 -> 1.2
+    Has Bullet Spread
+
+  130420000 VERTICAL MISSILE LAUNCHER - BML-G1/P01VTC-04:
+    Missile Lock Time: 0.4 -> 0.8
+    Has Bullet Spread
+
+  131000000 GRENADE CANNON - SONGBIRDS:
+    Rate Of Fire: 0.25 -> 0.2
+
+  131100000 NEEDLE MISSILE LAUNCHER - EL-PW-01 TRUENO:
+    Missile Lock Time: 4.2 -> 2.2
+
+  131510000 LASER TURRET - VP-60LT:
+    Projectiles Per Shot: 1 -> 3
+    Has Bullet Spread
+
+  132000000 SPREAD BAZOOKA - SB-033M MORLEY:
+    Bullets Fired Per Shot: 1 -> 3
+    Rate Of Fire: 0 -> 0.15
+
+  133010000 LASER ORBIT - 45-091 ORBT:
+    Bullets Fired Per Shot: 3 -> 2
+    Rate Of Fire: 0.6 -> 0.4
+    Rate Of Fire (Between Individual Bullets Fired In A Single Burst): 2 -> 1.5
+    Heat Build Up Over Time Active: 20 -> 15
+
+  133500000 LIGHT WAVE CANNON - IA-C01W3: AURORA (Right):
+    Missile Lock Time: 3.3 -> 1.8
+
+  133505000 LIGHT WAVE CANNON - IA-C01W3: AURORA (Left):
+    Missile Lock Time: 3.3 -> 1.8
+
+  134000000 GATLING CANNON - DF-GA-09 SHAO-WEI:
+    Projectiles Per Shot: 1 -> 8
+    Bullets Fired Per Shot: 1 -> 10
+    Rate Of Fire: 0 -> 0.032
+    Rate Of Fire (Between Individual Bullets Fired In A Single Burst): 0.07 -> 0.032
+    Recoil: 3 -> 1
+    Has Bullet Spread -1 -> 10500000
+    Shotgun Spread Distance (Bigger Number Better): 0 -> 280
+    Heat Build Up: 37 -> 50
+
+[-- Blade Params --]
+
+  25101100 CORAL OSCILLATOR - IB-C03W2: WLT 101 (Charged):
+    Attack Angle Upper Limit: 45 -> 90
+    Attack Angle Lower Limit: 45 -> 90
+
+[-- Bullet Params --]
+(Velocity, Range, Acceleration, Status Effect, etc.)
+
+  10000000 BURST RIFLE - MA-J-200 RANSETSU-RF:
+    Initial Bullet Velocity: 530 -> 605
+    Max bullet Velocity: 530 -> 605
+    Effective Range: 180 -> 300
+
+  10000100 BURST RIFLE - MA-J-200 RANSETSU-RF (Charged):
+    Initial Bullet Velocity: 530 -> 605
+    Max bullet Velocity: 530 -> 605
+    Effective Range: 200 -> 350
+
+  10010000 LINEAR RIFLE - LR-036 CURTIS:
+    Initial Bullet Velocity: 620 -> 1140
+    Max bullet Velocity: 620 -> 1140
+    Effective Range: 190 -> 300
+    Maximum Range: 680 -> 700
+
+  10010100 LINEAR RIFLE - LR-036 CURTIS (Charged):
+    Initial Bullet Velocity: 750 -> 1300
+    Max bullet Velocity: 750 -> 1300
+    Effective Range: 220 -> 300
+
+  10020000 LINEAR RIFLE - LR-037 HARRIS:
+    Initial Bullet Velocity: 700 -> 770
+    Max bullet Velocity: 700 -> 770
+    Effective Range: 195 -> 450
+
+  10020100 LINEAR RIFLE - LR-037 HARRIS (Charged):
+    Initial Bullet Velocity: 900 -> 2000
+    Max bullet Velocity: 900 -> 2000
+    Effective Range: 248 -> 800
+
+  10100000 BURST ASSAULT RIFLE - MA-J-201 RANSETSU-AR:
+    Initial Bullet Velocity: 550 -> 605
+    Max bullet Velocity: 550 -> 605
+    Effective Range: 165 -> 290
+
+  10110000 ASSAULT RIFLE - RF-024 TURNER:
+    Initial Bullet Velocity: 550 -> 600
+    Bullet Acceleration (In Range): 0 -> 3000
+    Bullet Acceleration (Out Range): 0 -> 5000
+    Max bullet Velocity: 550 -> 3000
+    Minimum Bullet Velocity: 10 -> 20
+    Time Before Bullet Accelerates: 0 -> 0.05
+    Effective Range: 171 -> 450
+    Maximum Range: 629 -> 756
+
+  10120000 ASSAULT RIFLE - RF-025 SCUDDER:
+    Initial Bullet Velocity: 550 -> 700
+    Max bullet Velocity: 550 -> 700
+    Hit Radius: 0.5 -> 0.6
+    Max Hit Radius 0.5 -> 0.6
+    Effective Range: 173 -> 500
+    Maximum Range: 656 -> 756
+
+  10300000 GATLING GUN - DF-GA-08 HU-BEN:
+    Initial Bullet Velocity: 500 -> 700
+    Max bullet Velocity: 500 -> 700
+
+  10400000 BAZOOKA - LITTLE GEM:
+    Initial Bullet Velocity: 345 -> 545
+    Max bullet Velocity: 345 -> 545
+
+  10400001 BAZOOKA - LITTLE GEM:
+    Initial Bullet Velocity: 345 -> 545
+    Max bullet Velocity: 345 -> 545
+
+  10400005 BAZOOKA - LITTLE GEM (Blast):
+    Time Before Bullet Expires: 0.5 -> 0.8
+    Hit Radius: 15 -> 12
+    Max Hit Radius 15 -> 30
+    Time To Reach Max Hit Radius: 0 -> 0.2
+    Applies Stun Effect
+
+  10420000 BAZOOKA - DF-BA-06 XUAN-GE:
+    Initial Bullet Velocity: 320 -> 420
+    Max bullet Velocity: 320 -> 420
+
+  10420001 BAZOOKA - DF-BA-06 XUAN-GE:
+    Initial Bullet Velocity: 320 -> 420
+    Max bullet Velocity: 320 -> 420
+
+  10420005 BAZOOKA - DF-BA-06 XUAN-GE (Blast):
+    Applies ACS Failure
+
+  10700000 NEEDLE GUN - EL-PW-00 VIENTO:
+    Applies ACS Uranium
+
+  10810005 NAPALM BOMB LAUNCHER - MA-T-222 KYORAI:
+    Hit Radius: 20 -> 40
+    Max Hit Radius 20 -> 40
+
+  10810007 NAPALM BOMB LAUNCHER - MA-T-222 KYORAI:
+    Hit Radius: 15 -> 30
+    Max Hit Radius 15 -> 30
+
+  10810105 NAPALM BOMB LAUNCHER - MA-T-222 KYORAI (Charged):
+    Hit Radius: 20 -> 50
+    Max Hit Radius 20 -> 50
+
+  10810107 NAPALM BOMB LAUNCHER - MA-T-222 KYORAI (Charged):
+    Hit Radius: 15 -> 35
+    Max Hit Radius 15 -> 35
+
+  11120100 CORAL RIFLE - IB-C03W1: WLT 011 (Charged):
+    Initial Bullet Velocity: 800 -> 3000
+    Max bullet Velocity: 900 -> 3000
+    Hit Radius: 0.5 -> 0.1
+    Max Hit Radius 0.5 -> 0.1
+
+  11130000 LASER RIFLE - VE-66LRA:
+    Time Before Bullet Expires: 1.2 -> -1
+    Initial Bullet Velocity: 600 -> 720
+    Max bullet Velocity: 600 -> 720
+    Effective Range: 220 -> 400
+    Maximum Range: 760 -> 750
+
+  11130100 LASER RIFLE - VE-66LRA (Charged):
+    Time Before Bullet Expires: 1.2 -> -1
+    Initial Bullet Velocity: 900 -> 1080
+    Max bullet Velocity: 900 -> 1080
+    Effective Range: 280 -> 750
+
+  11200005 PLASMA RIFLE - Vvc-760PR (Blast):
+    Applies ACS Plasma
+
+  11200105 PLASMA RIFLE - Vvc-760PR (Charged Blast):
+    Applies ACS Plasma
+
+  11210005 MULTI ENERGY RIFLE - 44-142 KRSV (Blast):
+    Applies ACS Plasma
+
+  11210110 MULTI ENERGY RIFLE - 44-142 KRSV (Full Charged):
+    Applies ACS Plasma
+
+  11210115 MULTI ENERGY RIFLE - 44-142 KRSV (Full Charged Blast):
+    Applies ACS Plasma
+
+  11300000 PULSE GUN - HI-16: GU-Q1:
+    Healing: 0 -> 300
+
+  11310000 PULSE GUN - HI-18: GU-A2:
+    Healing: 0 -> 300
+
+  11520005 PLASMA RIFLE - IA-C01W1: NEBULA (Blast):
+    Applies ACS Plasma
+
+  11520105 PLASMA RIFLE - IA-C01W1: NEBULA (Charged Blast):
+    Applies ACS Plasma
+
+  11700006 DETONATING BAZOOKA - 44-141 JVLN ALPHA (Blast):
+    Applies ACS Uranium
+
+  20700102 PLASMA THROWER - 44-143 HMMR (Charged Blast):
+    Applies ACS Plasma
+
+  21000005 EXPLOSIVE THROWER - DF-ET-09 TAI-YANG-SHOU (Blast):
+    Applies ACS Uranium
+
+  21000105 EXPLOSIVE THROWER - DF-ET-09 TAI-YANG-SHOU (Charged Blast):
+    Max Hit Radius 25 -> 35
+    Applies ACS Uranium
+
+  30000005 PLASMA MISSILE LAUNCHER - Vvc-703PM (Blast):
+    Applies ACS Plasma
+
+  30010005 PLASMA MISSILE LAUNCHER - Vvc-70VPM (Blast):
+    Applies ACS Plasma
+
+  30020005 PLASMA MISSILE LAUNCHER - Vvc-706PM (Blast):
+    Applies ACS Plasma
+
+  30110000 ACTIVE HOMING MISSILE LAUNCHER - BML-G3/P04ACT-01:
+    Max bullet Velocity: 109 -> 200
+
+  30400000 VERTICAL MISSILE LAUNCHER - BML-G1/P07VTC-12 (Ascending):
+    Initial Bullet Velocity: 125 -> 25
+
+  30400001 VERTICAL MISSILE LAUNCHER - BML-G1/P07VTC-12 (Descending):
+    Initial Bullet Velocity: 60 -> 650
+    Bullet Acceleration (In Range): 400 -> 0
+    Bullet Acceleration (Out Range): 400 -> 0
+    Max bullet Velocity: 350 -> 650
+    Hit Radius: 0.5 -> 5.5
+    Max Hit Radius 0.5 -> 5.5
+
+  30400005 VERTICAL MISSILE LAUNCHER - BML-G1/P07VTC-12 (Blast):
+    Hit Radius: -1 -> 6
+    Max Hit Radius -1 -> 6
+
+  30410000 VERTICAL MISSILE LAUNCHER - BML-G1/P03VTC-08 (Ascending):
+    Initial Bullet Velocity: 125 -> 25
+
+  30410001 VERTICAL MISSILE LAUNCHER - BML-G1/P03VTC-08 (Descending):
+    Initial Bullet Velocity: 60 -> 650
+    Bullet Acceleration (In Range): 400 -> 600
+    Bullet Acceleration (Out Range): 400 -> 600
+    Max bullet Velocity: 350 -> 650
+    Hit Radius: 0.5 -> 5.5
+    Max Hit Radius 0.5 -> 5.5
+
+  30410005 VERTICAL MISSILE LAUNCHER - BML-G1/P03VTC-08 (Blast):
+    Hit Radius: -1 -> 6
+    Max Hit Radius -1 -> 6
+
+  30420000 VERTICAL MISSILE LAUNCHER - BML-G1/P01VTC-04 (Ascending):
+    Initial Bullet Velocity: 125 -> 25
+
+  30420001 VERTICAL MISSILE LAUNCHER - BML-G1/P01VTC-04 (Descending):
+    Initial Bullet Velocity: 60 -> 130
+    Bullet Acceleration (In Range): 400 -> 900
+    Bullet Acceleration (Out Range): 400 -> 900
+    Max bullet Velocity: 350 -> 850
+    Hit Radius: 0.5 -> 5.5
+    Max Hit Radius 0.5 -> 5.5
+
+  30420005 VERTICAL MISSILE LAUNCHER - BML-G1/P01VTC-04 (Blast):
+    Hit Radius: -1 -> 6
+    Max Hit Radius -1 -> 6
+
+  31000000 GRENADE CANNON - SONGBIRDS:
+    Initial Bullet Velocity: 360 -> 400
+
+  31100000 NEEDLE MISSILE LAUNCHER - EL-PW-01 TRUENO:
+    [spEffectId0]: 0 -> 6110
+
+  31210002 CONTAINER MISSILE LAUNCHER - BML-G1/P29CNT (Missiles):
+    Initial Bullet Velocity: 10 -> 40
+
+  31310007 CLUSTER MISSILE LAUNCHER - WR-0999 DELIVERY BOY (Cluster Missiles):
+    Distance To AC When Homing Is No Longer Applied: 0 -> 5
+    Initial Bullet Velocity: 100 -> 70
+    Bullet Acceleration (In Range): 0 -> 30
+    Bullet Acceleration (Out Range): 0 -> 30
+    Max bullet Velocity: 650 -> 200
+    Minimum Bullet Velocity: 10 -> 25
+    Homing Angle: 0 -> 240
+    Firing Angle: 0 -> 45
+    Homing Start Time: 0 -> 0.25
+    Proximity Fuse Range: 10 -> 0
+
+  31410080 LASER DRONE - Vvc-700LD:
+    Self Destructs In Plasma
+    Proximity Fuse Range: 0 -> 20
+
+  31415090 LASER DRONE - Vvc-700LD (Laser):
+    Gravity Out Range: 10 -> 0
+    Initial Bullet Velocity: 400 -> 40
+    Bullet Acceleration (In Range): 0 -> 200
+    Bullet Acceleration (Out Range): 0 -> 200
+    Max bullet Velocity: 400 -> 550
+    Minimum Bullet Velocity: 10 -> 25
+    Time Before Bullet Accelerates: 0 -> 0.5
+    Homing Angle: 0 -> 180
+
+  31415613 LASER DRONE - Vvc-700LD (Charged):
+    1st Volley: Fires A Flamethrower
+
+  31415623 LASER DRONE - Vvc-700LD (Charged):
+    2nd Volley: Fires A Laser Barrage
+
+  31415680 LASER DRONE - Vvc-700LD (Charged):
+    Self Destructs In Plasma
+    Proximity Fuse Range: 0 -> 20
+
+  31510000 LASER TURRET - VP-60LT (Launching):
+    Initial Bullet Velocity: 40 -> 100
+
+  31510003 LASER TURRET - VP-60LT (Active):
+    Time Before Bullet Expires: 10 -> 20
+    Self Destructs In Plasma
+    Proximity Fuse Range: 0 -> 20
+
+  32000005 SPREAD BAZOOKA - SB-033M MORLEY (Blast):
+    Leaves Behind Napalm Pools
+    Proximity Fuse Range: 0 -> 10
+
+  32300005 PLASMA CANNON - FASAN/60E (Blast):
+    Applies ACS Plasma
+
+  32300105 PLASMA CANNON - FASAN/60E (Charged Blast):
+    Applies ACS Plasma
+
+  32400000 PULSE CANNON - KRANICH/60Z:
+    Healing: 0 -> 450
+
+  32700000 STUN NEEDLE LAUNCHER - VE-60SNA:
+    Initial Bullet Velocity: 500 -> 1100
+    Max bullet Velocity: 500 -> 1100
+    Effective Range: 280 -> 350
+
+  33000000 BULLET ORBIT - BO-044 HUXLEY:
+    Applies ACS Uranium: 0 -> 150
+
+  33010000 LASER ORBIT - 45-091 ORBT:
+    Initial Bullet Velocity: 680 -> 720
+    Max bullet Velocity: 680 -> 720
+
+  33100000 PULSE SHIELD LAUNCHER - EULE/60D:
+    Healing: 0 -> 1800
+
+  33100001 PULSE SHIELD LAUNCHER - EULE/60D:
+    Initial Bullet Velocity: 0 -> 210
+    Minimum Bullet Velocity: 0 -> 210
+    Healing: 0 -> 1800
+
+  33100002 PULSE SHIELD LAUNCHER - EULE/60D (Shield):
+    Initial Bullet Velocity: 0 -> 210
+    Minimum Bullet Velocity: 5 -> 210
+    Healing: 0 -> 1800
+
+  33100005 PULSE SHIELD LAUNCHER - EULE/60D (Blast):
+    Healing: 0 -> 1800
+
+  34000000 GATLING CANNON - DF-GA-09 SHAO-WEI:
+    Initial Bullet Velocity: 500 -> 575
+    Max bullet Velocity: 500 -> 575
+    Will No Longer Ricochet
+    Effective Range: 156 -> 206
+
+  70000001 EXPANSION - ASSAULT ARMOR (Pulse):
+    Healing: 0 -> 5000
+
+  70000101 EXPANSION - ASSAULT ARMOR (Coral):
+    Healing: 0 -> 5000
+
+  70200009 EXPANSION - PULSE PROTECTION:
+    Max Hit Radius 70 -> 150
+    Applies ACS Plasma
+
+[-- Booster Params --]
+
+  60000000 BST-G2/P04:
+    Assault Boost Initial Speed: 561 -> 564
+    Assault Boost End Speed: 510 -> 512.5
+
+  60070200 AB-J-137 KIKAKU:
+    Assault Boost Initial Speed: 542 -> 561
+    Assault Boost End Speed: 493 -> 510
+
+  60070300 BC-0400 MULE:
+    Weight: 970 -> 7000
+    EN Load: 200 -> 285
+    Upward Thrust EN Consumption: 405 -> 450
+    QB End Speed: 298 -> 308
+    QB Accelerate Time: 14 -> 9
+    Dash Boost End Speed: 325 -> 372
+    Fly Boost End Speed: 325 -> 372
+    QB Start Add Speed: 350 -> 362
+    QB Reload Time Sec: 0.58 -> 0.65
+    Upper Boost Max Speed: 286 -> 340
+    Upper Boost Start Accelerate: 200 -> 237
+    Upper Boost Max Accelerate: 200 -> 237
+    Assault Boost Initial Speed: 501 -> 550
+    Assault Boost End Speed: 455 -> 630
+    Assault Boost One Shot Drain EN Points: 152 -> 151
+    Assault Boost Drain EN Points Per Second: 381 -> 385
+    Fly Boost Upper Jump Max Accelerate: 200 -> 237
+    QB Reg Weight]: 80000 -> 1000000
+    Assault Boost Side Avoid Initial Speed: 426 -> 420
+    Assault Boost Side Avoid Minimum Accelerate Time: 14 -> 6.5
+
+[-- FCS Params --]
+
+  70000000 FCS-G1/P01:
+    EN Capacity: 0 -> 400
+    EN Output: 0 -> 398
+
+  70020000 VE-21A:
+    FCS Range Extended: 390 -> 600
+    Close Range Distance: 120 -> 100
+    Medium Range Distance 1: 140 -> 170
+    Medium Range Distance 2: 250 -> 210
+    Long Range: Distance 270 -> 350
+
+  70020100 VE-21B:
+    FCS Range Extended: 390 -> 750
+    Close Range Distance: 120 -> 100
+    Medium Range Distance 1: 140 -> 170
+    Medium Range Distance 2: 250 -> 210
+    Long Range Distance: 270 -> 350
+
+[-- Generator Params --]
+
+  65000000 AG-J-098 JOSO:
+    Weight: 3420 -> 2000
+    EN Capacity: 2300 -> 1300
+    EN Output: 2600 -> 2000
+    EN Recharge: 1.3 -> 0.1
+    Supply Recovery: 2 -> 5.5
+    Post Recovery EN Supply: 400 -> 100
+
+  65010400 AG-E-013 YABA:
+    Weight: 5080 -> 8680
+    EN Capacity: 3060 -> 2300
+    EN Recharge: 0.92 -> 0.275
+    Supply Recovery: 1.8 -> 4.5
+    Post Recovery EN Supply: 1000 -> 100
+
+  65010000 DF-GN-02 LING-TAI:
+    Weight: 3860 -> 3440
+    EN Capacity: 2240 -> 2450
+
+  65010200 VP-20S:
+    Weight: 3800 -> 3380
+    EN Capacity: 2620 -> 2830
+
+  65040100 VP-20D:
+    Weight: 11030 -> 11830
+    EN Capacity: 3720 -> 4020
+   Supply Recovery: 2.35 -> 2.2
+
+  65020000 VE-20A:
+    EN Output: 3180 -> 3280
+    EN Recharge: 1.27 -> 0.8
+    Supply Recovery: 2.4 -> 1.7
+    EN Spec: 120 -> 130
+
+  65040300 VE-20C:
+    Weight: 10130 -> 11430
+    EN Capacity: 3690 -> 3920
+    EN Output: 4090 -> 4190
+    EN Spec: 128 -> 135
+
+  65030000 IA-C01G: AORTA:
+    Weight: 4330 -> 3910
+    EN Capacity: 3000 -> 3210
+    EN Recharge: 4.2 -> 3.8
+    EN Spec: 105 -> 115
+
+[-- AC Parts Params --]
+
+  All Heads:
+    System Recovery: 125
+
+  50010000 HEAD - DF-HD-08 TIAN-QIANG:
+    AP: 420 -> 490
+    Stability: 267 -> 464
+    Scan Angle: 65 -> 120
+    Scan Distance: 300 -> 650
+    Scan Time: 7 -> 8
+
+  50080300 HEAD - LAMMERGEIER/44F:
+    AP: 300 -> 500
+    Stability: 305 -> 475
+    Explosive Defense: -2 -> 0.3
+    Scan Angle: 65 -> 120
+    Scan Distance: 360 -> 620
+    Scan Time: 6.6 -> 3.9
+
+  51080000 CORE - IB-C03C: HAL 826:
+    Generator Supply Adjustment: 108 -> 111
+
+  53000000 LEGS - LG-011 MELANDER:
+    AP: 4300 -> 5800
+
+  53000300 LEGS - LG-012 MELANDER C3:
+    AP: 3980 -> 5480
+
+  53000100 LEGS - 2S-5000 DESSERT:
+    AP: 5290 -> 6640
+
+  53010000 LEGS - DF-LG-08 TIAN-QIANG:
+    AP: 5300 -> 6650
+
+  53020000 LEGS - NACHTREIHER/42E:
+    AP: 3460 -> 5010
+
+  53030000 LEGS - VP-422:
+    AP: 4090 -> 5590
+
+  53040000 LEGS - VE-42A:
+    AP: 5900 -> 7050
+
+  53050000 LEGS - 06-041 MIND ALPHA:
+    AP: 4560 -> 6060
+
+  53060000 LEGS - EL-TL-10 FIRMEZA:
+    AP: 3600 -> 5250
+
+  53070200 LEGS - AL-J-121 BASHO:
+    AP: 4240 -> 5740
+
+  53070300 LEGS - 2C-3000 WRECKER:
+    AP: 5220 -> 6720
+
+  53070400 LEGS - 2C-2000 CRAWLER:
+    AP: 3650 -> 5150
+
+  53080000 LEGS - IB-C03L: HAL 826:
+    AP: 4120 -> 5620
+
+  53080100 LEGS - IA-C01L: EPHEMERA:
+    AP: 3800 -> 5300
+
+  53080200 LEGS - EL-PL-00 ALBA:
+    AP: 3850 -> 5350
+
+  53900000 LEGS - AL-J-121/RC JAILBREAK:
+    AP: 2000 -> 3500
+
+  53120000 LEGS - KASUAR/42Z:
+    AP: 3580 -> 5230
+    Stability: 686 -> 761
+    [computed_f03]: 686 -> 761
+
+  53150000 LEGS - 06-042 MIND BETA:
+    AP: 4020 -> 5520
+    Stability: 788 -> 863
+    [computed_f03]: 788 -> 863
+
+  53170400 LEGS - RC-2000 SPRING CHICKEN:
+    AP: 4410 -> 5910
+    Stability: 801 -> 876
+    [computed_f03]: 801 -> 876
+
+  53200000 LEGS - LG-033M VERRILL:
+    AP: 5250 -> 6750
+
+  53230000 LEGS - VP-424:
+    AP: 4100 -> 5600
+
+  53280300 LEGS - LAMMERGEIER/42F:
+    AP: 3560 -> 4560
+
+  53300000 LEGS - LG-022T BORNEMISSZA:
+    AP: 9240 -> 10240
+
+  53340000 LEGS - VE-42B:
+    AP: 8600 -> 9600
+
+  53360000 LEGS - EL-TL-11 FORTALEZA:
+    AP: 5100 -> 6600
+
+[-- Weapon Params --]
+(Weight, EN Load, Ammo, etc.)
+
+  10000000 BURST RIFLE - MA-J-200 RANSETSU-RF (Right):
+    Magazine Size: 15 -> 10
+    Total Ammo: 375 -> 400
+
+  15000000 BURST RIFLE - MA-J-200 RANSETSU-RF (Left):
+    Magazine Size: 15 -> 10
+    Total Ammo: 375 -> 400
+
+  10000100 LINEAR RIFLE - LR-036 CURTIS (Right):
+    Reload Time: 2.2 -> 2.8
+    Charge Time: 0.5 -> 0.7
+
+  15000100 LINEAR RIFLE - LR-036 CURTIS (Left):
+    Reload Time: 2.2 -> 2.8
+    Charge Time: 0.5 -> 0.7
+
+  10000200 LINEAR RIFLE - LR-037 HARRIS (Right):
+    Heat Decay Per Second: 350 -> 300
+
+  15000200 LINEAR RIFLE - LR-037 HARRIS (Left):
+    Heat Decay Per Second: 350 -> 300
+
+  10010000 BURST ASSAULT RIFLE - MA-J-201 RANSETSU-AR (Right):
+    Magazine Size: 18 -> 25
+    Total Ammo: 450 -> 600
+
+  15010000 BURST ASSAULT RIFLE - MA-J-201 RANSETSU-AR (Left):
+    Magazine Size: 18 -> 25
+    Total Ammo: 450 -> 600
+
+  10010100 ASSAULT RIFLE - RF-024 TURNER (Right):
+    Weight: 3560 -> 5350
+    % Explosive Damage: 0 -> 100
+    Magazine Size: 18 -> 2
+    Total Ammo: 540 -> 100
+    EN Load: 102 -> 300
+    Reload Time: 2.2 -> 4.2
+
+  15010100 ASSAULT RIFLE - RF-024 TURNER (Left):
+    Weight: 3560 -> 5350
+    % Explosive Damage: 0 -> 100
+    Magazine Size: 18 -> 2
+    Total Ammo: 540 -> 100
+    EN Load: 102 -> 300
+    Reload Time: 2.2 -> 4.2
+
+  10010200 ASSAULT RIFLE - RF-025 SCUDDER (Right):
+    Weight: 3830 -> 5800
+    Magazine Size: 15 -> 5
+    Total Ammo: 450 -> 350
+    EN Load: 153 -> 330
+    Bullet Cost: 50 -> 500
+    Reload Time: 2.4 -> 6
+    Charge Time: 0 -> 2
+    Time Before Charge Decays: -1 -> 0.4
+    Heat Decay Per Second: 0 -> 200
+    Can Overheat
+
+  15010200 ASSAULT RIFLE - RF-025 SCUDDER (Left):
+    Weight: 3830 -> 5800
+    Magazine Size: 15 -> 5
+    Total Ammo: 450 -> 350
+    EN Load: 153 -> 330
+    Bullet Cost: 50 -> 500
+    Reload Time: 2.4 -> 6
+    Charge Time: 0 -> 2
+    Time Before Charge Decays: -1 -> 0.4
+    Heat Decay Per Second: 0 -> 200
+    Can Overheat
+
+  10050000 SHOTGUN - WR-0777 SWEET SIXTEEN (Right):
+    Weight: 1640 -> 4020
+    Magazine Size: 13 -> 39
+    Total Ammo: 546 -> 2080
+
+  15050000 SHOTGUN - WR-0777 SWEET SIXTEEN (Left):
+    Weight: 1640 -> 4020
+    Magazine Size: 13 -> 39
+    Total Ammo: 546 -> 2080
+
+  10090000 MISSILE LAUNCHER - HML-G2/P19MLT-04 (Right):
+    Weapon Lock Range: 500 -> 550
+
+  15090000 MISSILE LAUNCHER - HML-G2/P19MLT-04 (Left):
+    Weapon Lock Range: 500 -> 550
+
+  10090100 SPLIT MISSILE LAUNCHER - HML-G3/P08SPL-06 (Right):
+    Weapon Lock Range: 500 -> 550
+
+  15090100 SPLIT MISSILE LAUNCHER - HML-G3/P08SPL-06 (Left):
+    Weapon Lock Range: 500 -> 550
+
+  10110000 LASER HANDGUN - VP-66LH (Right):
+    Heat Decay Per Second: 315 -> 280
+
+  15110000 LASER HANDGUN - VP-66LH (Left):
+    Heat Decay Per Second: 315 -> 280
+
+  10110200 CORAL RIFLE - IB-C03W1: WLT 011 (Right):
+    Weight: 9030 -> 9020
+    Right Hand Weapon Only
+    Total Ammo: 180 -> 270
+    Weapon Lock Range: 200 -> 300
+    Charge Time: 2 -> 3
+    Charge 2 Charge Time: 2.3 -> 1.3
+
+  15110200 CORAL RIFLE - IB-C03W1: WLT 011 (Left):
+    No Longer Exists
+
+  10110300 LASER RIFLE - VE-66LRA (Right):
+    Charge Time: 3.8 -> 2.8
+
+  15110300 LASER RIFLE - VE-66LRA (Left):
+    Charge Time: 3.8 -> 2.8
+
+  10160000 FLAMETHROWER - WB-0000 BAD COOK (Right):
+    Weight: 5370 -> 4870
+
+  15160000 FLAMETHROWER - WB-0000 BAD COOK (Left):
+    Weight: 5370 -> 4870
+
+  10190000 SIEGE MISSILE LAUNCHER - WS-5000 APERITIF (Right):
+    Weapon Lock Range: 500 -> 550
+
+  15190000 SIEGE MISSILE LAUNCHER - WS-5000 APERITIF (Left):
+    Weapon Lock Range: 500 -> 550
+
+  10300000 PULSE MISSILE LAUNCHER - PFAU/66D (Right):
+    Weapon Lock Range: 500 -> 550
+
+  15300000 PULSE MISSILE LAUNCHER - PFAU/66D (Left):
+    Weapon Lock Range: 500 -> 550
+
+  20020000 LASER BLADE - Vvc-770LB:
+    Scales With EN Spec: 0 -> 1
+
+  20030000 LASER SLICER - Vvc-774LS:
+    Scales With EN Spec: 0 -> 1
+
+  20040000 LASER DAGGER - VP-67LD:
+    Scales With EN Spec: 0 -> 1
+
+  20050000 LASER LANCE - VE-67LLA:
+    Scales With EN Spec: 0 -> 1
+
+  20060000 CHAINSAW - WB-0010 DOUBLE TROUBLE:
+    Weight: 5090 -> 4590
+
+  20080000 PILE BUNKER - PB-033M ASHMEAD:
+    EN Load: 225 -> 200
+
+  25010300 CORAL SHIELD - IB-C03W4: NGI 028:
+    EN Load: 800 -> 400
+
+  30000000 PLASMA MISSILE LAUNCHER - Vvc-703PM (Right):
+    Scales With EN Spec: 0 -> 1
+
+  35000000 PLASMA MISSILE LAUNCHER - Vvc-703PM (Left):
+    Scales With EN Spec: 0 -> 1
+
+  30000100 PLASMA MISSILE LAUNCHER - Vvc-70VPM (Right):
+    Scales With EN Spec: 0 -> 1
+
+  35000100 PLASMA MISSILE LAUNCHER - Vvc-70VPM (Left):
+    Scales With EN Spec: 0 -> 1
+
+  30000200 PLASMA MISSILE LAUNCHER - Vvc-706PM (Right):
+    Scales With EN Spec: 0 -> 1
+
+  35000200 PLASMA MISSILE LAUNCHER - Vvc-706PM (Left):
+    Scales With EN Spec: 0 -> 1
+
+  30010000 ACTIVE HOMING MISSILE LAUNCHER - BML-G3/P05ACT-02 (Right):
+    Weapon Lock Range: 500 -> 550
+
+  35010000 ACTIVE HOMING MISSILE LAUNCHER - BML-G3/P05ACT-02 (Left):
+    Weapon Lock Range: 500 -> 550
+
+  30010100 ACTIVE HOMING MISSILE LAUNCHER - BML-G3/P04ACT-01 (Right):
+    Weapon Lock Range: 500 -> 550
+
+  35010100 ACTIVE HOMING MISSILE LAUNCHER - BML-G3/P04ACT-01 (Left):
+    Weapon Lock Range: 500 -> 550
+
+  30020000 MISSILE LAUNCHER - BML-G2/P03MLT-06 (Right):
+    Weapon Lock Range: 500 -> 550
+
+  35020000 MISSILE LAUNCHER - BML-G2/P03MLT-06 (Left):
+    Weapon Lock Range: 500 -> 550
+
+  30020100 MISSILE LAUNCHER - BML-G1/P20MLT-04 (Right):
+    Weapon Lock Range: 500 -> 550
+
+  35020100 MISSILE LAUNCHER - BML-G1/P20MLT-04 (Left):
+    Weapon Lock Range: 500 -> 550
+
+  30020200 MISSILE LAUNCHER - BML-G2/P05MLT-10 (Right):
+    Weapon Lock Range: 500 -> 550
+
+  35020200 MISSILE LAUNCHER - BML-G2/P05MLT-10 (Left):
+    Weapon Lock Range: 500 -> 550
+
+  30030000 CORAL MISSILE LAUNCHER - IB-C03W3: NGI 006 (Right):
+    Weapon Lock Range: 500 -> 550
+
+  35030000 CORAL MISSILE LAUNCHER - IB-C03W3: NGI 006 (Left):
+    Weapon Lock Range: 500 -> 550
+
+  30040000 VERTICAL MISSILE LAUNCHER - BML-G1/P07VTC-12 (Right):
+    Weapon Lock Range: 500 -> 750
+
+  35040000 VERTICAL MISSILE LAUNCHER - BML-G1/P07VTC-12 (Left):
+    Weapon Lock Range: 500 -> 750
+
+  30040100 VERTICAL MISSILE LAUNCHER - BML-G1/P03VTC-08 (Right):
+    Weapon Lock Range: 500 -> 750
+
+  35040100 VERTICAL MISSILE LAUNCHER - BML-G1/P03VTC-08 (Left):
+    Weapon Lock Range: 500 -> 750
+
+  30040200 VERTICAL MISSILE LAUNCHER - BML-G1/P01VTC-04 (Right):
+    Weapon Lock Range: 500 -> 750
+
+  35040200 VERTICAL MISSILE LAUNCHER - BML-G1/P01VTC-04 (Left):
+    Weapon Lock Range: 500 -> 750
+
+  30050000 DETONATING MISSILE LAUNCHER - 45-091 JVLN BETA (Right):
+    Weapon Lock Range: 500 -> 550
+
+  35050000 DETONATING MISSILE LAUNCHER - 45-091 JVLN BETA (Left):
+    Weapon Lock Range: 500 -> 550
+
+  30070000 SCATTER MISSILE LAUNCHER - WS-5001 SOUP (Right):
+    Weapon Lock Range: 500 -> 550
+
+  35070000 SCATTER MISSILE LAUNCHER - WS-5001 SOUP (Left):
+    Weapon Lock Range: 500 -> 550
+
+  30080000 DUAL MISSILE LAUNCHER - BML-G1/P32DUO-03 (Right):
+    Weapon Lock Range: 500 -> 550
+
+  35080000 DUAL MISSILE LAUNCHER - BML-G1/P32DUO-03 (Left):
+    Weapon Lock Range: 500 -> 550
+
+  30080100 DUAL MISSILE LAUNCHER - BML-G2/P08DUO-03 (Right):
+    Weapon Lock Range: 500 -> 550
+
+  35080100 DUAL MISSILE LAUNCHER - BML-G2/P08DUO-03 (Left):
+    Weapon Lock Range: 500 -> 550
+
+  30080200 DUAL MISSILE LAUNCHER - BML-G1/P31DUO-02 (Right):
+    Weapon Lock Range: 500 -> 550
+
+  35080200 DUAL MISSILE LAUNCHER - BML-G1/P31DUO-02 (Left):
+    Weapon Lock Range: 500 -> 550
+
+  30090000 SPLIT MISSILE LAUNCHER - BML-G2/P19SPL-12 (Right):
+    Weapon Lock Range: 500 -> 550
+
+  35090000 SPLIT MISSILE LAUNCHER - BML-G2/P19SPL-12 (Left):
+    Weapon Lock Range: 500 -> 550
+
+  30100000 GRENADE CANNON - SONGBIRDS (Right):
+    Weight: 5500 -> 4500
+    Weapon Lock Range: 500 -> 550
+
+  35100000 GRENADE CANNON - SONGBIRDS (Left):
+    Weight: 5500 -> 4500
+    Weapon Lock Range: 500 -> 550
+
+  30110000 NEEDLE MISSILE LAUNCHER - EL-PW-01 TRUENO (Right):
+    Weapon Lock Range: 500 -> 550
+
+  35110000 NEEDLE MISSILE LAUNCHER - EL-PW-01 TRUENO (Left):
+    Weapon Lock Range: 500 -> 550
+
+  30120000 CONTAINER MISSILE LAUNCHER - BML-G1/P29CNT (Right):
+    Weapon Lock Range: 500 -> 550
+
+  35120000 CONTAINER MISSILE LAUNCHER - BML-G1/P29CNT (Left):
+    Weapon Lock Range: 500 -> 550
+
+  30130000 CLUSTER MISSILE LAUNCHER - WR-0999 DELIVERY BOY (Right):
+    Weapon Lock Range: 500 -> 550
+
+  35130000 CLUSTER MISSILE LAUNCHER - WR-0999 DELIVERY BOY (Left):
+    Weapon Lock Range: 500 -> 550
+
+  30140100 LASER DRONE - Vvc-700LD (Right):
+    Weapon Lock Range: 500 -> 550
+
+  35140100 LASER DRONE - Vvc-700LD (Left):
+    Weapon Lock Range: 500 -> 550
+
+  30150100 LASER TURRET - VP-60LT (Right):
+    Weight: 2800 -> 5300
+    EN Load: 560 -> 660
+
+  35150100 LASER TURRET - VP-60LT (Left):
+    Weight: 2800 -> 5300
+    EN Load: 560 -> 660
+
+  30200000 SPREAD BAZOOKA - SB-033M MORLEY (Right):
+    Weight: 6580 -> 6080
+    Magazine Size: 1 -> 3
+    Total Ammo: 25 -> 150
+
+  35200000 SPREAD BAZOOKA - SB-033M MORLEY (Left):
+    Weight: 6580 -> 6080
+    Magazine Size: 1 -> 3
+    Total Ammo: 25 -> 150
+
+  30270000 STUN NEEDLE LAUNCHER - VE-60SNA (Right):
+    Reload Time: 5 -> 4
+
+  35270000 STUN NEEDLE LAUNCHER - VE-60SNA (Left):
+    Reload Time: 5 -> 4
+
+  30300000 BULLET ORBIT - BO-044 HUXLEY (Right):
+    Weapon Lock Range: 500 -> 550
+
+  35300000 BULLET ORBIT - BO-044 HUXLEY (Left):
+    Weapon Lock Range: 500 -> 550
+
+  30300100 LASER ORBIT - 45-091 ORBT (Right):
+    Weight: 2010 -> 2910
+    Total Ammo: 165 -> 190
+    Weapon Lock Range: 500 -> 550
+    Scales With EN Spec: 0 -> 1
+
+  35300100 LASER ORBIT - 45-091 ORBT (Left):
+    Weight: 2010 -> 2910
+    Weapon Lock Range: 500 -> 550
+    Scales With EN Spec: 0 -> 1
+
+  30310000 PULSE SHIELD LAUNCHER - EULE/60D (Right):
+    Magazine Size: 3 -> 5
+    Weapon Lock Range: 500 -> 550
+
+  35310000 PULSE SHIELD LAUNCHER - EULE/60D (Left):
+    Magazine Size: 3 -> 5
+    Weapon Lock Range: 500 -> 550
+
+  30350100 LIGHT WAVE CANNON - IA-C01W3: AURORA (Right):
+    Weight: 3330 -> 3560
+    Weapon Lock Range: 500 -> 550
+    Reload Time: 5.5 -> 5
+
+  35350100 LIGHT WAVE CANNON - IA-C01W3: AURORA (Left):
+    Weight: 3330 -> 3560
+    Weapon Lock Range: 500 -> 550
+    Reload Time: 5.5 -> 5
+
+  30400000 GATLING CANNON - DF-GA-09 SHAO-WEI (Right):
+    Heat Decay When Overheated: 90 -> 250
+    Heat Decay Delay After Shooting: 0.12 -> 0.8
+
+  35400000 GATLING CANNON - DF-GA-09 SHAO-WEI (Left):
+    Heat Decay When Overheated: 90 -> 250
+    Heat Decay Delay After Shooting: 0.12 -> 0.8
+
+  75010000 EXPANSION - PULSE ARMOR:
+    PA Health: 3300 -> 6600
+    PA Health Decay Per Second: 330 -> 660
+
+  75020000 EXPANSION - PULSE PROTECTION:
+    PA Health: 7000 -> 50000
+    PA Health Decay Per Second: 280 -> 2000
+    PA Radius: 50 -> 150
+
+  75030000 EXPANSION - TERMINAL ARMOR:
+    PA Health: 20000 -> 14000
+    PA Health Decay Per Second: 4000 -> 2400
+
+  80010000 HEAD (Scan) - DF-HD-08 TIAN-QIANG:
+    Reload Time: 11.4 -> 8
+
+  80080300 HEAD (Scan) - LAMMERGEIER/40F:
+    Reload Time: 8 -> 7.2
+
+  95020200 CORAL MISSILE LAUNCHER [NPC] - IB-C03W3: NGI 006 (Right):
+    Weapon Lock Range: 500 -> 550
+
+[-- Camera Params --]
+
+    Camera Is Now 10m Further Back From AC While Doing Non-Camera Altering Actions
+
+    WLT Coral Rifle 2nd Charge Aim Sensitivity Increased
+
+[-- Player Params --]
+
+  NEW Effect ACS Plasma:
+    Instantly Redlines Effect AC
+    Duration: 2 Seconds
+
+  NEW Effect ACS Uranium:
+    Increases Non-Coral Damage taken by 25%
+    Duration: 5 Seconds
+
+  Base AC6 Changes:
+    Base Stability: 0 -> 200
+    FCS Lock Distance: 450 -> 550
