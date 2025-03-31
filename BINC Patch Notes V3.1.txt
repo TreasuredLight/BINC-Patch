@@ -1,0 +1,238 @@
+BINC Patch Notes V3.1
+
+|HW Heads|
+
+EPHEMERA HMW
+STABILITY: 625
+AP: 990 -> 1740
+WEIGHT: 4330 -> 4830
+EN: 233
+SCAN DISTANCE: 625
+
+WREAKER HLW
+STABILITY: 600
+AP: 1130 -> 1880
+WEIGHT: 3800 -> 4300
+EN: 102
+SCAN DISTANCE: 532
+
+HAMMERHEAD HMW (Scan)
+STABILITY: 625
+AP: 1040 -> 1790
+WEIGHT: 4320 -> 4820
+EN: 265
+SCAN DISTANCE: 750
+
+SNAILHEAD HLW
+STABILITY: 600
+AP: 1060 -> 1810
+WEIGHT: 3640 -> 4140
+EN: 182
+SCAN DISTANCE: 525
+
+VERRILL HLW
+STABILITY: 600
+AP: 1080 -> 1830
+WEIGHT: 3830 -> 4330
+EN: 240
+SCAN DISTANCE: 586
+
+JAILBREAK HMW
+STABILITY: 625
+AP: 1000 -> 1750
+WEIGHT: 4250 -> 4750
+EN: 95
+SCAN DISTANCE: 509
+
+BASHO HHW
+STABILITY: 675
+AP: 1250 -> 2000
+WEIGHT: 4600 -> 5100
+EN: 95
+SCAN DISTANCE: 421
+
+|MW Heads|
+
+HAL H-MW
+STABILITY: 625
+AP: 930 -> 1180
+WEIGHT: 3760 -> 3750
+EN: 215
+SCAN DISTANCE: 529
+
+MIND BETA H-MW (Stab Dense)
+STABILITY: 650
+AP: 520 -> 770
+WEIGHT: 3460 
+EN: 128
+SCAN DISTANCE: 468
+
+MIND ALPHA M-MW
+STABILITY: 600
+AP: 820 -> 1070
+WEIGHT: 3350 
+EN: 142
+SCAN DISTANCE: 500
+
+APPETIZER L-MW (Scan)
+STABILITY: 575
+AP: 950 -> 1200
+WEIGHT: 3000 
+EN: 103
+SCAN DISTANCE: 670
+
+SHADE EYE L-MW (Scan)
+STABILITY: 575
+AP: 770 -> 1020
+WEIGHT: 3090 
+EN: 163
+SCAN DISTANCE: 700
+
+VP-44D M-MW
+STABILITY: 600
+AP: 880 -> 1130
+WEIGHT: 3260 
+EN: 177
+SCAN DISTANCE: 505
+
+MELANDER C3 M-MW
+STABILITY: 600
+AP: 1070 -> 1320
+WEIGHT: 3300 
+EN: 165
+SCAN DISTANCE: 533
+
+MELANDER M-MW
+STABILITY: 600
+AP: 1010 -> 1260
+WEIGHT: 3160 
+EN: 135
+SCAN DISTANCE: 499
+
+|LW Heads|
+
+ALBA H-LW
+STABILITY: 600
+AP: 600 -> 725
+WEIGHT: 2800 -> 2550
+EN: 205
+SCAN DISTANCE: 587
+
+FIRMEZA M-LW
+STABILITY: 575
+AP: 620
+WEIGHT: 2370 -> 1870
+EN: 134
+SCAN DISTANCE: 450
+
+FINDER EYE M-LW
+STABILITY: 575
+AP: 660
+WEIGHT: 2670 -> 2170
+EN: 84
+SCAN DISTANCE: 448
+
+LAMM L-LW
+STABILITY: 525
+AP: 500
+WEIGHT: 1050 
+EN: 220
+SCAN DISTANCE: 620
+
+KASUAR M-LW
+STABILITY: 575
+AP: 480
+WEIGHT: 2590 -> 2090
+EN: 254
+SCAN DISTANCE: 606
+
+NACHTREIHER M-LW
+STABILITY: 575
+AP: 590
+WEIGHT: 2320 -> 1820
+EN: 210
+SCAN DISTANCE: 546
+
+VP-44S H-LW
+STABILITY: 600
+AP: 850 -> 975
+WEIGHT: 3080 -> 2730 
+EN: 148
+SCAN DISTANCE: 497
+
+TIAN-QIANG L-LW (Scan)
+Stability: 525
+AP: 490
+WEIGHT: 1230 
+EN: 88
+SCAN DISTANCE: 650
+
+| Generators |
+
+JOSO
+EN Output: 2000 -> 2600
+
+| Expansions |
+
+Pulse Armor
+Decay: 660 -> 0
+
+Assault Armor
+Impact Radius: 60 -> 200
+
+| Weapons |
+
+Trueno
+Missile Lock Speed: 2.2 -> 2.4
+
+Songbirds
+Direct Hit Adj: 210 -> 205
+Direct Hit Adj (Blast): 210 -> 205
+Weight: 4500 -> 4400
+
+Laser Turrets
+Initial Velocity: 0 -> 40 (This makes them seek enemies again.)
+
+Laser Drones
+Weight: 3800 -> 3500
+EN Load: 570 -> 500
+
+Shao Wei
+Overheated Cooling Delay: 0.8 -> 1.6
+Direct Hit Adjustment: 195 -> 185
+
+Explosive Thrower
+Uranium Build Up: 500 -> 655
+
+Turner
+Kinetic Attack Power: 520 -> 220
+Mag Size: 2 -> 6
+Burst Fire: 1 -> 2
+Burst ROF: 0.380 -> 0.800
+
+Ludlow
+Attack Power: 42 -> 41
+Direct Hit Adjustment: 195 -> 185
+
+Chang-Chen
+Attack Power: 39 -> 38
+Direct Hit Adjustment: 195 -> 185
+
+Attache
+Direct Hit Adjustment: 195 -> 185
+
+Container Missile
+Mini Missiles now fire a shrapnel shotgun blast of incendiary depleted uranium needles when target AC is close.
+Shrapnel Needle Count: 0 -> 15
+Attack Power (Kinetic): 0 -> 40
+Attack Power (Explosive): 79 -> 40
+Impact: 71 -> 30
+Accumulative Impact: 46 -> 8
+Pulse Interference: 71 -> 20
+Uranium Build Up: 0 -> 10
+ACS Failure Build Up: 0 -> 30
+
+| Status Effects |
+
+Uranium Effect
+Additional Damage Inflicted: 25% -> 15%
