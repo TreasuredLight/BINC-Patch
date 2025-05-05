@@ -1,0 +1,50 @@
+BINC Patch Notes v3.2
+
+NEW Weapon Category(s) and Weapons
+Sniper Rifle (Skipper + Tipper)
+Coral Wave Cannon (Dawnbright)
+Laser Gatling Cannon (VP-60LGC)
+
+Pulse Armor now regenerates EN for 10 seconds (Infinite EN)
+Pulse Armor now Decays again
+
+ALL HEADS
+System Recovery Diversified.
+
+MULE
+AB EN Consumption: 385 -> 375
+
+SAMPU
+Range: 80 -> 160
+
+COQUILLETT
+Range: 85 -> 170
+
+DUCKETT
+Range: 90 -> 180
+
+RANSETSU-RF
+Charged Ammo Consumed: 1 -> 2 per bullet
+Fires 2 round burst sooner but longer interval between shots
+Rate of Fire bug fixed
+
+TURNER
+Reverted to Assault Rifle + Range and Rate of fire Buff
+
+SCUDDER
+Reverted to Assault Rifle + Range and Rate of fire Buff
+
+LAMM
+Stability Change: 980 -> 1080
+
+PLASMA & URANIUM (STATUS)
+Increased Build-Up on all weapons.
+
+Assault Armor
+Range Reduced across the board.
+Max Cleanse Range: 200 -> 185
+Max Heal Range remains at 200m
+
+Enemy "No Spawn" Distance: 400 -> 600
+Friendly "No Spawn" Distance: 200 -> 50
+Arena Match Result Duration: 60 -> 20
